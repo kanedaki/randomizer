@@ -1,0 +1,13 @@
+<!doctype html>
+<html ng-app="random">
+  <head>
+    <script src="http://code.angularjs.org/1.2.12/angular.min.js"></script>
+    <script src="js/random.js"></script>
+  </head>
+  <body>
+    <div ng-controller="RandomController">
+      <button ng-click="start()">Start</button>
+      <p>Data: {{data}}</p>
+    </div>
+  </body>
+</html>

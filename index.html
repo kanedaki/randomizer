@@ -1,13 +1,15 @@
 <!doctype html>
-<html ng-app="random">
+<html >
   <head>
-    <script src="http://code.angularjs.org/1.2.12/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/vendor/underscore.js"></script>
+    <script src="js/vendor/backbone.js"></script>
     <script src="js/random.js"></script>
   </head>
   <body>
-    <div ng-controller="RandomController">
-      <button ng-click="start()">Start</button>
-      <p>Data: {{data}}</p>
+    <div>
+      <button class="start">Start</button>
+      <p class="data">Data: [0,0,0,0,0,0]</p>
     </div>
   </body>
 </html>
